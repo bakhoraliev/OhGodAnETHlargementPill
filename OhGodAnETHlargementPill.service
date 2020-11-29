@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=/usr/bin/local/OhGodAnETHlargementPill
+ExecStart=/usr/local/bin/OhGodAnETHlargementPill
 
 [Install]
 WantedBy=multi-user.target
