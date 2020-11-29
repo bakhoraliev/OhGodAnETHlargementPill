@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "Clone OhGodAnETHlargementPill\n"
+git clone https://github.com/LukasBures/OhGodAnETHlargementPill.git .
+chmod a+x ./OhGodAnETHlargementPill
+echo "copy OhGodAnETHlargementPill to /usr/local/bin\n"
+sudo cp ./OhGodAnETHlargementPill /usr/local/bin/
+echo "copy OhGodAnETHlargementPill.service to /etc/systemd/system/"
+sudo cp ./OhGodAnETHlargementPill.service /etc/systemd/system/
+echo "reload daemons"
+systemctl daemon-reload
+echo "enable OhGodAnETHlargementPill.service"
+systemctl enable OhGodAnETHlargementPill.service
+echo "start OhGodAnETHlargementPill.service"
+systemctl start OhGodAnETHlargementPill.service
