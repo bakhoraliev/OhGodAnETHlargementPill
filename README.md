@@ -7,5 +7,5 @@ Tested on Ubuntu 18.04.5 LTS x86_64.
 git clone https://github.com/IlhomBahoraliev/OhGodAnETHlargementPill-linux-service.git; \
 cd ./OhGodAnETHlargementPill-linux-service; \
 chmod a+x ./create-service; \
-./create-service;
+./create-service
 ```
