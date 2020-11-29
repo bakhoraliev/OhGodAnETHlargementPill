@@ -1,9 +1,9 @@
 #!/bin/bash
 echo "Clone OhGodAnETHlargementPill\n"
-git clone https://github.com/LukasBures/OhGodAnETHlargementPill.git .
-chmod a+x ./OhGodAnETHlargementPill
+git clone https://github.com/LukasBures/OhGodAnETHlargementPill.git
+chmod a+x ./OhGodAnETHlargementPill/OhGodAnETHlargementPill
 echo "copy OhGodAnETHlargementPill to /usr/local/bin\n"
-sudo cp ./OhGodAnETHlargementPill /usr/local/bin/
+sudo cp ./OhGodAnETHlargementPill/OhGodAnETHlargementPill /usr/local/bin/
 echo "copy OhGodAnETHlargementPill.service to /etc/systemd/system/"
 sudo cp ./OhGodAnETHlargementPill.service /etc/systemd/system/
 echo "reload daemons"
