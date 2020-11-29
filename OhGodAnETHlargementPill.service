@@ -1,0 +1,10 @@
+[Unit]
+Description=Run OhGodAnETHlargementPill as service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/local/OhGodAnETHlargementPill
+
+[Install]
+WantedBy=multi-user.target
