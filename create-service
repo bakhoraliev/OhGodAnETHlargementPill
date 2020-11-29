@@ -1,14 +1,12 @@
 #!/bin/bash
-echo "Clone OhGodAnETHlargementPill\n"
+echo -e "\e[34mClone \e[34mOhGodAnETHlargementPill\n"
 git clone https://github.com/LukasBures/OhGodAnETHlargementPill.git
-chmod a+x ./OhGodAnETHlargementPill/OhGodAnETHlargementPill
-echo "copy OhGodAnETHlargementPill to /usr/local/bin\n"
+sudo chmod a+x ./OhGodAnETHlargementPill/OhGodAnETHlargementPill
 sudo cp ./OhGodAnETHlargementPill/OhGodAnETHlargementPill /usr/local/bin/
-echo "copy OhGodAnETHlargementPill.service to /etc/systemd/system/"
 sudo cp ./OhGodAnETHlargementPill.service /etc/systemd/system/
-echo "reload daemons"
+echo -e "\e[34mreload \e[34mdaemons"
 systemctl daemon-reload
-echo "enable OhGodAnETHlargementPill.service"
+echo -e "\e[34menable \e[34mOhGodAnETHlargementPill.service"
 systemctl enable OhGodAnETHlargementPill.service
-echo "start OhGodAnETHlargementPill.service"
+echo -e "\e[34mstart \e[34mOhGodAnETHlargementPill.service"
 systemctl start OhGodAnETHlargementPill.service
