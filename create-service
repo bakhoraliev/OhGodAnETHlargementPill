@@ -1,12 +1,12 @@
 #!/bin/bash
-echo -e "\e[34mClone OhGodAnETHlargementPill\n\e[97m"
+echo -e "\e[33mClone OhGodAnETHlargementPill\e[97m"
 git clone https://github.com/LukasBures/OhGodAnETHlargementPill.git
 sudo chmod a+x ./OhGodAnETHlargementPill/OhGodAnETHlargementPill
 sudo cp ./OhGodAnETHlargementPill/OhGodAnETHlargementPill /usr/local/bin/
 sudo cp ./OhGodAnETHlargementPill.service /etc/systemd/system/
-echo -e "\e[34mreload daemons\n\e[97m"
+echo -e "\e[33mreload daemons\e[97m"
 systemctl daemon-reload
-echo -e "\e[34menable OhGodAnETHlargementPill.service\n\e[97m"
+echo -e "\e[33menable OhGodAnETHlargementPill.service\e[97m"
 systemctl enable OhGodAnETHlargementPill.service
-echo -e "\e[34mstart OhGodAnETHlargementPill.service\n\e[97m"
+echo -e "\e[33mstart OhGodAnETHlargementPill.service\e[97m"
 systemctl start OhGodAnETHlargementPill.service
