@@ -1,5 +1,5 @@
 [Unit]
-Description=Run OhGodAnETHlargementPill as service
+Description=Run OhGodAnETHlargementPill
 After=multi-user.target
 
 [Service]
