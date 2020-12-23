@@ -1,4 +1,4 @@
-# OhGodAnETHlargementPill-linux-service
+# OhGodAnETHlargementPill
 Start OhGodAnETHlargementPill as Linux daemon.
 Tested on Ubuntu 18.04.5 LTS x86_64.
 
